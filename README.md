@@ -14,10 +14,10 @@ MineSweeper solver pytorch implementation using DQN and Double DQN
 ## General Setup
 There is no gym environment for MineSweeper, so it has to be builded from sratch (environment.py). It follows the same arrangement as in http://minesweeperonline.com/#beginner. 
 
-* [DQN agent: DQN.py]
-* [Memory replay configuration: memory.py]
-* [Main training: main.py]
-* [Train from console: train.sh]
+* DQN agent: DQN.py
+* Memory replay configuration: memory.py
+* Main training: main.py
+* Train from console: train.sh
 
 ## Arguments for training:
 
