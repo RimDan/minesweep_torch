@@ -40,7 +40,7 @@ There is no gym environment for MineSweeper, so it has to be builded from sratch
     parser.add_argument("--eps_end", type=float, default=0.02)    #min epsilon for epsilon greedy policy
     parser.add_argument("--eps_decay", type=int, default=50000)    #epsilon decay rate
     parser.add_argument("--lr", type=float, default=1e-4)   #learning rate for agent
-    parser.add_argument("--double", type=str, default="True")    #apply Doble DQN
+    parser.add_argument("--double", type=str, default="True")    #apply Double DQN
     parser.add_argument("--lr_decay", type=float, default=0.9999999)    # decay rate of lr
     parser.add_argument("--initial_memory", type=int, default=50000)    #initial memory size
     parser.add_argument("--target_update", type=int, default=5)     #update target network every [...]
