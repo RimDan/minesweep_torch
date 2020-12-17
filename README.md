@@ -74,6 +74,6 @@ CONFIDENCES = {
 }
 ```
 
-##Comments
+## Comments
 The parameters as they are do not work well. The win rate after 300k episodes is barely 2%.
 Feel free to explore on your own :)
